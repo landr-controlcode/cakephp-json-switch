@@ -6,6 +6,8 @@ Quick switch to json representation of any view variables.
 
 Just add `?json` to the url to get the json data behind a view to request it through ajax pagination.
 
+[Demo site](http://cakephp.control-code.com/)
+
 ## Installation
 
 You can install this plugin into your CakePHP application using [composer](http://getcomposer.org).

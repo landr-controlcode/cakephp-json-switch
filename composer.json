@@ -2,7 +2,7 @@
     "name": "controlcode/cakephp-json-switch",
     "description": "Quick switch to json representation of any view variables.",
     "type": "cakephp-plugin",
-    "keywords": ["cakephp", "json", "ld+json"],
+    "keywords": ["cakephp", "json", "ldjson"],
     "homepage": "https://github.com/landr-controlcode/cakephp-json-switch",
     "license": "MIT",
     "authors": [
