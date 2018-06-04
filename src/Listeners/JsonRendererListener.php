@@ -13,7 +13,7 @@ class JsonRendererListener implements EventListenerInterface
     }
 
     public function responseJson($event) {
-        $viewVars = $event->subject()->viewVars;
+        $viewVars = $event->getSubject()->viewVars;
         array_walk_recursive($viewVars, function(&$value, $key) {
             if (is_string($value)) {
                 $value = iconv('windows-1252', 'utf-8', $value);
