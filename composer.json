@@ -1,0 +1,23 @@
+{
+    "name": "controlcode/ControlCodeJsonSwitch",
+    "description": "Quick switch to json representation of any view variables.",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "require": {
+        "cakephp/cakephp": "^3.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7.14|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ControlCodeJsonSwitch\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ControlCodeJsonSwitch\\Test\\": "tests/",
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+        }
+    }
+}
