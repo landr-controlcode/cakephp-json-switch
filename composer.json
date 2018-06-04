@@ -1,5 +1,5 @@
 {
-    "name": "controlcode/ControlCodeJsonSwitch",
+    "name": "controlcode/cakephp-json-switch",
     "description": "Quick switch to json representation of any view variables.",
     "type": "cakephp-plugin",
     "license": "MIT",
