@@ -2,6 +2,10 @@
 
 Quick switch to json representation of any view variables.
 
+## Use case
+
+Just add `?json` to the url to get the json data behind a view to request it through ajax pagination.
+
 ## Installation
 
 You can install this plugin into your CakePHP application using [composer](http://getcomposer.org).
@@ -9,7 +13,7 @@ You can install this plugin into your CakePHP application using [composer](http:
 The recommended way to install composer packages is:
 
 ```
-composer require folojona/ControlCodeJsonSwitch
+composer require controlcode/cakephp-json-switch
 ```
 
 ## Usage

@@ -25,7 +25,7 @@ class JsonRendererListener implements EventListenerInterface
             echo json_encode($viewVars);
             die();
         }
-        if(isset($_GET["react"])) { ?>
+        if(isset($_GET["ldjson"])) { ?>
             <script type="application/ld+json">
             <?php echo json_encode($viewVars); ?>
             </script>
